@@ -1,0 +1,50 @@
+body {
+    background-color: mediumslateblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 500px;
+    height: 600px;
+    background-color: aliceblue;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+}
+
+#translate1, #translate2, #lang, #lang2, #translateBtn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#translate1, #translate2 {
+    height: 100px;
+}
+
+#lang, #lang2, #translateBtn {
+    height: 40px;
+}
+
+#translateBtn {
+    background-color: mediumslateblue;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#translateBtn:hover {
+    background-color: slateblue;
+}
